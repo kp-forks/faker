@@ -10,6 +10,7 @@ def test_slugify_converts_to_lowercase_and_hyphens():
 
     assert result == expected_output
 
+
 def test_slugify_with_special_characters():
     """Check if special characters and accented letters are handled correctly"""
     input_text = "Zażółć Gęślą Jaźń! @2026"
@@ -19,6 +20,7 @@ def test_slugify_with_special_characters():
 
     assert result == expected_output
 
+
 def test_slugify_empty_string():
     """Check how the function handles an empty string"""
     input_text = ""
@@ -27,6 +29,7 @@ def test_slugify_empty_string():
     result = slugify(input_text)
 
     assert result == expected_output
+
 
 def test_slugify_with_multiple_spaces_and_hyphens():
     """Check if the function cleans up multiple spaces and hyphens"""
