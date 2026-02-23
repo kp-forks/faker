@@ -1,5 +1,9 @@
 ## Changelog
 
+### [v40.5.1 - 2026-02-23](https://github.com/joke2k/faker/compare/v40.5.0...v40.5.1)
+
+* Fix `_get_local_timezone()` missing `return` statement. Thanks @bysiber.
+
 ### [v40.5.0 - 2026-02-23](https://github.com/joke2k/faker/compare/v40.4.0...v40.5.0)
 
 * Add missing formats and remove duplicates in `user_name_formats`. Thanks @WannaFight.
